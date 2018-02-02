@@ -37,17 +37,11 @@ public class BlownUp : MonoBehaviour {
 	playerController myBalloon;
 	public GameObject myBLExploision;
 
+	playerController a;
 	void Awake(){
 		myBalloon = GetComponent<playerController>();
 	}
-
-	void Start () {
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
+		
 
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.gameObject.tag == "KillBalloon" || other.gameObject.tag == "EatCandy") {

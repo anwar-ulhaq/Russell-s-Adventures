@@ -26,7 +26,7 @@ public class AutoBird : MonoBehaviour {
 		yield return new WaitForSeconds (appearFrequency);
 		Vector3 temp = theBalloon.transform.position;
 		temp.y = Random.Range (-5f, 5f);
-		temp.x = theBalloon.transform.position.x + 40;
+		temp.x = theBalloon.transform.position.x + 30;
 		Instantiate (autoBird, temp, Quaternion.identity);
 		StartCoroutine (Bird ());
 
