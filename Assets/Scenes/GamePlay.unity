@@ -3438,7 +3438,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -4216,7 +4215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2103248579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4590,7 +4589,7 @@ MonoBehaviour:
   gunTip: {fileID: 822892294}
   candy: {fileID: 1175372749369238, guid: 64338df509c9e4eff802f51344202e0e, type: 2}
   audioSource: {fileID: 2146923738}
-  bgClip: {fileID: 8300000, guid: 4e9c4ac1cadde46caa0d5ff50ffc1161, type: 3}
+  bgClip: {fileID: 8300000, guid: bfe026e5ea9fa448bae92fd4af5d6130, type: 3}
   dieClip: {fileID: 8300000, guid: bfe026e5ea9fa448bae92fd4af5d6130, type: 3}
 --- !u!114 &2146923737
 MonoBehaviour:
