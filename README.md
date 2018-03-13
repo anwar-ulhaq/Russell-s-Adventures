@@ -15,6 +15,8 @@ Clouds<br>
 Forests<br>
 Sand<br>
 Volcanos<br>
+Fog</br>
+Rain</br>
 
 <h2>Game Story</h2>
 Russell wants to travel around the World by balloon through 7 Wonders and collect 7 souvenirs.<br>
