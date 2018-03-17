@@ -6,13 +6,12 @@ public class destroyMe : MonoBehaviour {
 
 	public float aliveTime;
 
-	// Use this for initialization
+	/// <summary>
+	/// Start this instance.
+	/// </summary>
+	// Automatically destroy after a while.
 	void Start () {
 		Destroy (gameObject, aliveTime);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

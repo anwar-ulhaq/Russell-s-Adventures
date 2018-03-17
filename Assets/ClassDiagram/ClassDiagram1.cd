@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MonoBehaviour">
+    <Position X="5.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonoBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoBird">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <InheritanceLine Type="MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.125" Y="0.5" />
+        <Point X="6.125" Y="0.26" />
+        <Point X="1.229" Y="0.26" />
+        <Point X="1.229" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACIBAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Birds\AutoBird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlownUp">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgEAAAEA=</HashCode>
+      <FileName>Assets\Script\Balloon\BlownUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cameraFollow">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAiAAAAAAJAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Balloon\cameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="candyController">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAACEAAAAQAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Balloon\candyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="candyHit">
+    <Position X="2.75" Y="3.25" Width="1.75" />
+    <InheritanceLine Type="MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="6.125" Y="1.368" />
+        <Point X="6.125" Y="3.028" />
+        <Point X="3.625" Y="3.028" />
+        <Point X="3.625" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAEAAAgAAAAAAAAAgAEA=</HashCode>
+      <FileName>Assets\Script\Balloon\candyHit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="changeDirection">
+    <Position X="2.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Birds\changeDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="destroyMe">
+    <Position X="5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Birds\destroyMe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="enemyDamage">
+    <Position X="7.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAASAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Script\Birds\enemyDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyingCode">
+    <Position X="7.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgACAAAAAAAACAAAAAAAAAAAAAAAAAAAEAgAA=</HashCode>
+      <FileName>Assets\Script\Birds\FlyingCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameplayController">
+    <Position X="12" Y="0.5" Width="1.75" />
+    <InheritanceLine Type="MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.125" Y="0.5" />
+        <Point X="6.125" Y="0.26" />
+        <Point X="12.947" Y="0.26" />
+        <Point X="12.947" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABAABAAAABAABAAAgAABAAGAAAABAAAAAEEA=</HashCode>
+      <FileName>Assets\Script\ScenceController\GameplayController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuController">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Main Menu\MainMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerController">
+    <Position X="9.75" Y="0.5" Width="1.75" />
+    <InheritanceLine Type="MonoBehaviour" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.125" Y="0.5" />
+        <Point X="6.125" Y="0.26" />
+        <Point X="10.625" Y="0.26" />
+        <Point X="10.625" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gCAgEAAAAoIAAAgAAEAAAAAAAEAAEQAIAAAAgAEAAEA=</HashCode>
+      <FileName>Assets\Script\Balloon\playerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

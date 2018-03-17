@@ -46,3 +46,6 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
+
+# Unity Collabiration file
+*.collabignore

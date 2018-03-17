@@ -4,9 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - EatCandy
   - KillBalloon
+  - Destination
+  - EatCandy
   - Candy
+  - Bird
+  - Score
+  - FinalDestination
   layers:
   - Default
   - TransparentFX

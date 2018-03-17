@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711268012a96e460fa97786f68f992fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aliveTime: 1.5
+  aliveTime: 1
 --- !u!114 &114530047383208402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299e5cf71c35d406189242d25e6f0493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  candySpeed: 20
+  candySpeed: 30
 --- !u!114 &114618696184912144
 MonoBehaviour:
   m_ObjectHideFlags: 1

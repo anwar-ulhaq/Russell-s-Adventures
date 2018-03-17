@@ -8,25 +8,24 @@ public class cameraFollow : MonoBehaviour {
 	public float smoothing;
 
 	Vector3 offset;
-	float lowY;
 
+	/// <summary>
+	/// Start this instance.
+	/// </summary>
 	// Use this for initialization
 	void Start () {
-
 		offset = transform.position - target.position;
-		lowY = transform.position.y;
-
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
 		
+	// Update is called once per frame
+	// Camera follows the Balloon based on its position
+	/// <summary>
+	/// Update this instance.
+	/// </summary>
+	void Update () {
 		Vector3 targetCampos = target.position + offset;
 		transform.position = Vector3.Lerp (transform.position, targetCampos, smoothing * Time.deltaTime);
-		if (transform.position.y<lowY)
-			transform.position = new Vector3 (transform.position.x, lowY, transform.position.z);
-		if (transform.position.y>lowY)
-			transform.position = new Vector3 (transform.position.x, lowY, transform.position.z);
+			transform.position = new Vector3 (transform.position.x, 0, transform.position.z);
 		
 	}
 }

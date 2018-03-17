@@ -5,23 +5,20 @@ using UnityEngine;
 public class changeDirection : MonoBehaviour {
 
 	FlyingCode theObject;
-	// Use this for initialization
 
 	void Awake(){
 		theObject = GetComponent<FlyingCode>();
-
 	} 
 
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	/// <summary>
+	/// Raises the trigger enter2 d event.
+	/// </summary>
+	/// <param name="other">Other.</param>
+	//Destroy Birds in collision with Candy
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.gameObject.tag == "Candy") {
 			theObject.removeForce ();
-			Destroy (gameObject);
-		}	}}
+			gameObject.SetActive (false);
+		}	
+	}
+}
